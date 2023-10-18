@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: bisque;
+        }
+
+        .items {
+            border: 2px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(235, 216, 216);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #veg {
+            float: right;
+            width: 48%;
+        }
+
+        #book {
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+
+        p,h3 {
+            text-align: justify;
+        }
+
+        h1 {
+           
+            margin: 10px auto;
+            width: 334px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="items">
+            <h3>Fruits</h3>
+            <p id="p1" class="c1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati veniam saepe, sint
+                recusandae dolor iusto ad repellendus voluptas labore quibusdam, quas deleniti reprehenderit ipsam, cum
+                quasi quos odit sunt repellat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus aliquam
+                cumque harum amet enim, ratione voluptatum magni provident rerum doloremque ducimus, eius vero porro
+                corporis, ea magnam aspernatur accusantium repudiandae dignissimos? Inventore, incidunt laboriosam.</p>
+        </div>
+        <div id="veg" class="items">
+            <h3>Vegetables</h3>
+            <p id="p2" class="c1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum assumenda, delectus
+                provident ipsam pariatur veritatis iste ex dolor illum quibusdam.Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nulla rerum beatae, nobis provident voluptas libero facilis earum veritatis architecto
+                mollitia voluptatum illo corrupti repellat eaque molestiae ipsa ut ipsum quod? Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. At ratione ipsa omnis facilis, placeat distinctio! Corrupti adipisci
+                expedita ratione culpa? Autem tempore doloribus fugit explicabo accusamus nihil, iure vitae facilis et
+                reprehenderit quae doloremque.</p>
+        </div>
+        <div id="book" class="items">
+            <h3>Books</h3>
+            <p id="p3" class="c1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum beatae, nobis
+                provident voluptas libero facilis earum veritatis architecto mollitia voluptatum illo corrupti repellat
+                eaque molestiae ipsa ut ipsum quod?</p>
+        </div>
+        <div id="pen" class="items">
+            <h3>Pens</h3>
+            <p id="p3" class="c1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum beatae, nobis
+                provident voluptas libero facilis earum veritatis architecto mollitia voluptatum illo corrupti repellat
+                eaque molestiae ipsa ut ipsum quod?</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            /*universal selector  */
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: bisque;
+        }
+        .container{
+            background-color: rgb(233, 196, 255);
+            border: 3px solid rgb(120 13 187);
+            /* padding-top: 7px;
+            padding-bottom: 9px;
+            padding-left: 50px;
+            padding-right: 100px; */
+
+            /*Padding:top right bottom left*/
+            /* padding:23px 56px 6px 78px */
+
+            /*Margin:top right bottom left*/
+
+            /* padding:y(top/bottom) x(left/right); */
+            /* margin:y(top/bottom) x(left/right); */
+            padding: 34px 19px; 
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugiat atque nihil, cupiditate eum possimus excepturi. Corrupti nemo facere quia!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugiat atque nihil, cupiditate eum possimus excepturi. Corrupti nemo facere quia!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugiat atque nihil, cupiditate eum possimus excepturi. Corrupti nemo facere quia!</p>
+    </div>
+</body>
+</html>

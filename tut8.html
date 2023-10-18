@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h3>First Form</h3>
+    <form action="backend.java">
+
+        <div>
+            <label for="mynme">Name
+                <input type="text" id="mynme">
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label for="myemail">
+                Email:<input type="email" id="myemail">
+        </div>
+        <br>
+
+        <div>
+            <label for="mypwd">
+                Password:<input type="password" id="mypwd">
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label for="ctc">
+                CTC:<input type="number" id="ctc">
+            </label>
+        </div>
+        <br>
+
+        <div>
+                Gender:Male<input type="radio" name="gen">
+                Female<input type="radio" name="gen">
+        </div>
+        <br>
+
+        <div>
+                Please check your qualifications:
+                <br>
+                <input type="checkbox" name="mye"> UG<br>
+                <input type="checkbox" name="mye">PG <br>
+                <input type="checkbox" name="mye">Phd <br>
+        </div>
+        <br>
+
+        <div>
+            <label for="dgr">
+                Select your degree:
+                <select id="dgr">
+                    <option value="btech" selected>B.Tech</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="bsc">BSc</option>
+                    <option value="bcs">BCS</option>
+                </select>
+            </label>
+
+        </div>
+        <br>
+
+        <div>
+            <label for="md">
+                Date: <input type="date" name="myDate" id="md">
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label for="mt">
+                Tell about your projects <br>
+                <textarea name="mytxt" id="mt" rows="10" cols="50"></textarea>
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+
+        </div>
+    </form>
+
+</body>
+
+</html>
